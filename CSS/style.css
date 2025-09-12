@@ -11,3 +11,17 @@ body {
   grid-template-rows: 10% 1fr 13%;
   grid-template-areas: "header" "main" "footer";
 }
+
+/* HEADER */
+header {
+  padding: 3% 10%;
+  grid-area: header;
+  background-color: #646464;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 12%;
+}
