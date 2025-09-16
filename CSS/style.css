@@ -122,3 +122,99 @@ main {
   line-height: 1.5;
   text-align: justify;
 }
+
+/* SECTION SERVIÇOS */
+#SERVICO {
+  border-top: 1px solid #000000;
+  height: auto;
+  background-color: #ffffff;
+  padding: 2% 15%;
+}
+
+#service-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#service-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.service-category {
+  border-radius: 15px;
+  margin: 1.5% 0;
+  border: 1px solid #000000;
+  padding: 1% 2%;
+  width: 50%;
+}
+
+.name-category {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2%;
+}
+
+.service-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+}
+
+.service-card {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 4% 2%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 25vh;
+}
+
+.service-card a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  padding: 1%;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 15px;
+}
+
+.service-card a:hover {
+  background-color: #a4bc80;
+}
+
+.icon {
+  border: 1px solid #000000;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  display: flex;
+  padding: 4%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.icon img {
+  width: 65%;
+}
+
+.text-service {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.description-service {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 4.5%;
+}
+
