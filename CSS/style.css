@@ -219,6 +219,7 @@ main {
 
 /* SECTION DEPOIMENTOS */
 #DEPOIMENTOS {
+  border-top: 1px solid #000000;
   height: 80vh;
   padding: 4% 14%;
   display: grid;
@@ -274,4 +275,80 @@ main {
 .card-depoiments h2::before {
   content: "-";
   margin-right: 2%;
+}
+
+/* SECTION CONTATO */
+#CONTATO {
+  border-top: 1px solid #000000;
+  background-color: #ffffff;
+  padding: 4% 17%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+}
+
+#text-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+
+#text-description h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+#text-description p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+#contato-form {
+  display: flex;
+  padding-top: 10%;
+  justify-content: center;
+}
+
+#form-contato {
+  padding: 4% 2%;
+  width: 60%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+#form-contato input {
+  height: 10%;
+  border-radius: 10px;
+  padding-left: 2.5%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+}
+
+#form-contato textarea {
+  border-radius: 5px;
+  padding: 4% 2%;
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+
+#form-contato button {
+  border-radius: 15px;
+  height: 10%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: #2abcbc;
+  color: #ffffff;
+}
+
+#form-contato button:hover {
+  background-color: #256e6e;
 }
