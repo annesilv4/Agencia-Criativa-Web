@@ -432,3 +432,158 @@ footer {
   font-size: 0.85rem;
   color: #888;
 }
+
+/* MEDIA QUERIES */
+
+/* TABLET MODO PAISAGEM */
+@media (max-width: 1024px) {
+  /* HEADER */
+  #logo {
+    width: 14%;
+  }
+
+  #navbar {
+    width: 48%;
+  }
+
+  #navbar ul li a {
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  /* HOME */
+  #home-container h1 {
+    font-size: 1.5rem;
+  }
+
+  #home-container p {
+    font-size: 0.8rem;
+  }
+
+  /* SOBRE NÓS */
+  #SOBRE {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  #text-about h1 {
+    font-size: 1.5rem;
+  }
+
+  #text-about p {
+    font-size: 1rem;
+  }
+
+  /* SERVIÇO */
+  #SERVICO {
+    padding: 2% 5%;
+  }
+
+  #service-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .name-category {
+    font-size: 1rem;
+  }
+
+  .service-card a {
+    font-size: 0.7rem;
+  }
+
+  .text-service {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  .description-service {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 4.5%;
+  }
+
+  /* DEPOIMENTOS */
+  #DEPOIMENTOS {
+    height: 52vh;
+  }
+
+  #text-depoiments h1 {
+    font-size: 1.2rem;
+  }
+
+  #text-depoiments p {
+    font-size: 1rem;
+  }
+
+  .card-depoiments p {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+
+  .card-depoiments h2 {
+    font-size: 0.9rem;
+  }
+
+  .card-depoiments h2::before {
+    content: "-";
+    margin-right: 2%;
+  }
+
+  /* CONTANTO */
+  #text-description h1 {
+    font-size: 1.2rem;
+  }
+
+  #text-description p {
+    font-size: 1rem;
+  }
+
+  #form-contato {
+    width: 70%;
+    height: 60%;
+  }
+
+  #form-contato input {
+    height: 8%;
+    font-size: 0.8rem;
+  }
+
+  #form-contato textarea {
+    font-size: 0.8rem;
+  }
+
+  #form-contato button {
+    height: 8%;
+    font-size: 0.8rem;
+  }
+
+  /* FOOTER */
+  #logo-agencia img {
+    width: 45%;
+  }
+
+  #logo-agencia p {
+    font-size: 0.7rem;
+  }
+
+  #footer-links h3,
+  #footer-social h3 {
+    font-size: 1rem;
+  }
+
+  #footer-links ul li a {
+    font-size: 0.75rem;
+  }
+
+  #social-icons a {
+    font-size: 1rem;
+  }
+
+  #footer-bottom {
+    font-size: 0.75rem;
+  }
+}
+
+/* CELULAR */
