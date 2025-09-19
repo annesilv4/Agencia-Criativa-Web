@@ -26,6 +26,10 @@ header {
   width: 12%;
 }
 
+#logo-tela-320 {
+  display: none;
+}
+
 /* NAV */
 #navbar {
   width: 40%;
@@ -434,6 +438,216 @@ footer {
 }
 
 /* MEDIA QUERIES */
+/* CELULAR */
+@media (min-width: 320px) and (max-width: 600px) {
+  header {
+    padding: 1.55% 5%;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo-tela-320 {
+    display: flex;
+    width: 17%;
+  }
+
+  #navbar {
+    width: 74%;
+  }
+
+  #navbar ul li a {
+    font-weight: 500;
+    font-size: 0.45rem;
+  }
+
+  /* HOME */
+  #home-container h1 {
+    font-size: 1rem;
+  }
+
+  #home-container p {
+    font-size: 0.65rem;
+  }
+
+  /* SOBRE NÓS */
+  #SOBRE {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  #img-about img {
+    width: 98%;
+  }
+
+  #text-about h1 {
+    font-size: 1rem;
+  }
+
+  #text-about p {
+    font-size: 0.78rem;
+  }
+
+  /* SERVIÇO */
+  #SERVICO {
+    padding: 2% 5%;
+  }
+
+  #service-container h1 {
+    font-size: 1rem;
+  }
+
+  .name-category {
+    font-size: 0.9rem;
+  }
+
+  .service-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+
+  .service-card a {
+    padding: 2.5%;
+    font-size: 0.7rem;
+  }
+
+  .text-service {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+
+  .description-service {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 4.5%;
+  }
+
+  /* DEPOIMENTOS */
+  #DEPOIMENTOS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 52vh;
+  }
+
+  #text-depoiments h1 {
+    font-size: 1rem;
+  }
+
+  #text-depoiments p {
+    font-size: 0.85rem;
+  }
+
+  .card-depoiments {
+    margin-bottom: 2.5%;
+  }
+
+  .card-depoiments p {
+    font-size: 0.58rem;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+
+  .card-depoiments h2 {
+    font-size: 0.68rem;
+  }
+
+  .card-depoiments h2::before {
+    content: "-";
+    margin-right: 2%;
+  }
+
+  /* CONTANTO */
+  #CONTATO {
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    align-items: center;
+    height: 52vh;
+  }
+
+  #text-description {
+    width: 40%;
+    margin-bottom: -15%;
+  }
+
+  #text-description h1 {
+    font-size: 1rem;
+  }
+
+  #text-description p {
+    font-size: 0.78rem;
+  }
+
+  #contato-form {
+    width: 56%;
+    padding-top: 0;
+  }
+
+  #form-contato {
+    width: 95%;
+    height: 100%;
+    margin-left: -3%;
+  }
+
+  #form-contato input {
+    height: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 0.55rem;
+  }
+
+  #form-contato textarea {
+    font-size: 0.55rem;
+  }
+
+  #form-contato button {
+    height: 8%;
+    font-size: 0.55rem;
+  }
+
+  /* FOOTER */
+  #logo-agencia img {
+    width: 80%;
+  }
+
+  #logo-agencia p {
+    font-size: 0.53rem;
+  }
+
+  #footer-links,
+  #footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer-links h3,
+  #footer-social h3 {
+    font-size: 0.8rem;
+  }
+
+  #footer-links ul li a {
+    font-size: 0.65rem;
+  }
+
+  #social-icons a {
+    font-size: 0.8rem;
+  }
+
+  #footer-bottom {
+    padding-top: 2%;
+    font-size: 0.58rem;
+  }
+}
 
 /* TABLET PEQUENO */
 @media (min-width: 601px) and (max-width: 800px) {
@@ -787,5 +1001,3 @@ footer {
     font-size: 0.73rem;
   }
 }
-
-/* CELULAR */
