@@ -13,7 +13,7 @@ body {
 }
 
 /* HEADER */
-header {
+.header {
   padding: 2.55% 10%;
   grid-area: header;
   background-color: #0d0d0d;
@@ -56,13 +56,13 @@ header {
 }
 
 /* MAIN */
-main {
+.main {
   grid-area: main;
   background-color: #f5f5f5;
 }
 
 /* SEÇÃO HOME */
-#HOME {
+.section__home {
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -73,13 +73,13 @@ main {
   background-size: cover;
 }
 
-#home-container {
+.home__container {
   background-color: rgba(255, 255, 255, 0.567);
   padding: 2% 5%;
   border-radius: 10px;
 }
 
-#home-container h1 {
+.home__title {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   color: #0d0d0d;
@@ -90,7 +90,7 @@ main {
   align-items: center;
 }
 
-#home-container p {
+.home__subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   color: #0d0d0d;
@@ -440,7 +440,7 @@ footer {
 /* MEDIA QUERIES */
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 600px) {
-  header {
+  .header {
     padding: 1.55% 5%;
   }
 
@@ -463,11 +463,11 @@ footer {
   }
 
   /* HOME */
-  #home-container h1 {
+  .home__title {
     font-size: 1rem;
   }
 
-  #home-container p {
+  .home__subtitle {
     font-size: 0.65rem;
   }
 
@@ -666,11 +666,11 @@ footer {
   }
 
   /* HOME */
-  #home-container h1 {
+  .home__title {
     font-size: 1.5rem;
   }
 
-  #home-container p {
+  .home__subtitle {
     font-size: 0.8rem;
   }
 
@@ -861,11 +861,11 @@ footer {
   }
 
   /* HOME */
-  #home-container h1 {
+  .home__title {
     font-size: 1.5rem;
   }
 
-  #home-container p {
+  .home__subtitle {
     font-size: 0.8rem;
   }
 
