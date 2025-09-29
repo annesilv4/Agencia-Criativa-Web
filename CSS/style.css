@@ -222,7 +222,7 @@ body {
 }
 
 /* SECTION DEPOIMENTOS */
-#DEPOIMENTOS {
+.section__depoiments {
   border-top: 1px solid #000000;
   height: 80vh;
   padding: 4% 14%;
@@ -230,7 +230,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-#text-depoiments {
+.text__depoiments {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -239,44 +239,44 @@ body {
   height: 40%;
 }
 
-#text-depoiments h1 {
+.depoiments__title {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 5%;
 }
 
-#text-depoiments p {
+.depoiments__description {
   font-size: 1.2rem;
   text-align: justify;
   line-height: 1.2;
 }
 
-#depoiments {
+.depoiments__container {
   display: flex;
   gap: 5%;
   flex-direction: column;
   padding: 2%;
 }
 
-.card-depoiments {
+.card__depoiments {
   background-color: #ffffff;
   border: 1px solid #000000;
   padding: 4% 8%;
   border-radius: 15px;
 }
 
-.card-depoiments p {
+.card__depoiments p {
   font-size: 1.1rem;
   font-style: italic;
   margin-bottom: 5%;
 }
 
-.card-depoiments h2 {
+.depoiments__author {
   font-size: 1rem;
 }
 
-.card-depoiments h2::before {
+.depoiments__author::before {
   content: "-";
   margin-right: 2%;
 }
@@ -531,36 +531,36 @@ footer {
   }
 
   /* DEPOIMENTOS */
-  #DEPOIMENTOS {
+  .section__depoiments {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 52vh;
   }
 
-  #text-depoiments h1 {
+  .depoiments__title {
     font-size: 1rem;
   }
 
-  #text-depoiments p {
+  .depoiments__description {
     font-size: 0.85rem;
   }
 
-  .card-depoiments {
+  .card__depoiments {
     margin-bottom: 2.5%;
   }
 
-  .card-depoiments p {
+  .depoiments__paragraph {
     font-size: 0.58rem;
     font-style: italic;
     margin-bottom: 5%;
   }
 
-  .card-depoiments h2 {
+  .depoiments__author {
     font-size: 0.68rem;
   }
 
-  .card-depoiments h2::before {
+  .depoiments__author::before {
     content: "-";
     margin-right: 2%;
   }
@@ -734,29 +734,29 @@ footer {
   }
 
   /* DEPOIMENTOS */
-  #DEPOIMENTOS {
+  .section__depoiments {
     height: 52vh;
   }
 
-  #text-depoiments h1 {
+  .depoiments__title {
     font-size: 1rem;
   }
 
-  #text-depoiments p {
+  .depoiments__description {
     font-size: 0.85rem;
   }
 
-  .card-depoiments p {
+  .depoiments__paragraph {
     font-size: 0.62rem;
     font-style: italic;
     margin-bottom: 5%;
   }
 
-  .card-depoiments h2 {
+  .depoiments__author {
     font-size: 0.78rem;
   }
 
-  .card-depoiments h2::before {
+  .depoiments__author::before {
     content: "-";
     margin-right: 2%;
   }
@@ -913,29 +913,29 @@ footer {
   }
 
   /* DEPOIMENTOS */
-  #DEPOIMENTOS {
+  .section__depoiments {
     height: 52vh;
   }
 
-  #text-depoiments h1 {
+  .depoiments__title {
     font-size: 1.2rem;
   }
 
-  #text-depoiments p {
+  .depoiments__description {
     font-size: 0.95rem;
   }
 
-  .card-depoiments p {
+  .depoiments__paragraph {
     font-size: 0.78rem;
     font-style: italic;
     margin-bottom: 5%;
   }
 
-  .card-depoiments h2 {
+  .depoiments__author {
     font-size: 0.88rem;
   }
 
-  .card-depoiments h2::before {
+  .depoiments__author::before {
     content: "-";
     margin-right: 2%;
   }
