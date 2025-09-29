@@ -97,7 +97,7 @@ body {
 }
 
 /* SEÇÃO SOBRE NÓS */
-#SOBRE {
+.section__about {
   height: 90vh;
   padding: 5% 17%;
   display: flex;
@@ -107,11 +107,11 @@ body {
   background-color: #d7d7d7;
 }
 
-#img-about img {
+.about__img {
   border-radius: 10px;
 }
 
-#text-about h1 {
+.about__title {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   color: #0d0d0d;
@@ -119,7 +119,7 @@ body {
   text-align: left;
 }
 
-#text-about p {
+.about__subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   color: #0d0d0d;
@@ -472,20 +472,20 @@ footer {
   }
 
   /* SOBRE NÓS */
-  #SOBRE {
+  .section__about {
     flex-direction: column-reverse;
     gap: 0;
   }
 
-  #img-about img {
+  .about__img {
     width: 98%;
   }
 
-  #text-about h1 {
+  .about__title {
     font-size: 1rem;
   }
 
-  #text-about p {
+  .about__subtitle {
     font-size: 0.78rem;
   }
 
@@ -675,20 +675,20 @@ footer {
   }
 
   /* SOBRE NÓS */
-  #SOBRE {
+  .section__about {
     flex-direction: column-reverse;
     gap: 0;
   }
 
-  #img-about img {
+  .about__img {
     width: 98%;
   }
 
-  #text-about h1 {
+  .about__title {
     font-size: 1.2rem;
   }
 
-  #text-about p {
+  .about__subtitle {
     font-size: 0.9rem;
   }
 
@@ -870,16 +870,16 @@ footer {
   }
 
   /* SOBRE NÓS */
-  #SOBRE {
+  .section__about {
     flex-direction: column-reverse;
     gap: 0;
   }
 
-  #text-about h1 {
+  .about__title {
     font-size: 1.5rem;
   }
 
-  #text-about p {
+  .about__subtitle {
     font-size: 1rem;
   }
 
