@@ -291,27 +291,29 @@
       </section>
 
       <!-- SECTION CONTATO -->
-      <section id="CONTATO">
-        <div id="text-description">
-          <h1>Contato</h1>
-          <p>Preencha suas informações para entrar em contato com a gente.</p>
+      <section class="section__contacto">
+        <div class="contacto__container">
+          <h1 class="contacto__title">Contato</h1>
+          <p class="contacto__description">Preencha suas informações para entrar em contato com a gente.</p>
         </div>
 
-        <div id="contato-form">
-          <form action="" id="form-contato">
-            <input type="text" id="user-nome" placeholder="Digite seu nome" />
+        <div class="contato__form">
+          <form action="" class="form__contato">
+            <input type="text" id="user-nome" class="input input--name" placeholder="Digite seu nome" />
             <input
               type="email"
               id="user-email"
+              class="input input--email"
               placeholder="Digite seu e-mail"
             />
             <textarea
               name="user-message"
               id="user-message"
+              class="contato__message"
               placeholder="Digite sua mensagem aqui."
               rows="10"
             ></textarea>
-            <button type="button">Enviar Informações</button>
+            <button type="button" class="botao__submit">Enviar Informações</button>
           </form>
         </div>
       </section>

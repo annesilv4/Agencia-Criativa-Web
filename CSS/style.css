@@ -266,7 +266,7 @@ body {
   border-radius: 15px;
 }
 
-.card__depoiments p {
+.depoiments__paragraph{
   font-size: 1.1rem;
   font-style: italic;
   margin-bottom: 5%;
@@ -282,7 +282,7 @@ body {
 }
 
 /* SECTION CONTATO */
-#CONTATO {
+.section__contacto {
   border-top: 1px solid #000000;
   background-color: #ffffff;
   padding: 4% 17%;
@@ -291,7 +291,7 @@ body {
   height: 80vh;
 }
 
-#text-description {
+.contacto__container {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -300,26 +300,26 @@ body {
   height: 40%;
 }
 
-#text-description h1 {
+.contacto__title {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 5%;
 }
 
-#text-description p {
+.contacto__description {
   font-size: 1.2rem;
   text-align: justify;
   line-height: 1.2;
 }
 
-#contato-form {
+.contato__form {
   display: flex;
   padding-top: 10%;
   justify-content: center;
 }
 
-#form-contato {
+.form__contato {
   padding: 4% 2%;
   width: 60%;
   height: 65%;
@@ -329,7 +329,7 @@ body {
   border-radius: 15px;
 }
 
-#form-contato input {
+.input {
   height: 10%;
   border-radius: 10px;
   padding-left: 2.5%;
@@ -337,14 +337,14 @@ body {
   font-size: 1rem;
 }
 
-#form-contato textarea {
+.contato__message {
   border-radius: 5px;
   padding: 4% 2%;
   font-size: 1rem;
   margin-bottom: 5%;
 }
 
-#form-contato button {
+.botao__submit {
   border-radius: 15px;
   height: 10%;
   cursor: pointer;
@@ -353,7 +353,7 @@ body {
   color: #ffffff;
 }
 
-#form-contato button:hover {
+.botao__submit:hover {
   background-color: #256e6e;
 }
 
@@ -566,7 +566,7 @@ footer {
   }
 
   /* CONTANTO */
-  #CONTATO {
+  .section__contacto {
     display: flex;
     flex-direction: column;
     gap: 12%;
@@ -574,42 +574,42 @@ footer {
     height: 52vh;
   }
 
-  #text-description {
+  .contacto__container {
     width: 40%;
     margin-bottom: -15%;
   }
 
-  #text-description h1 {
+  .contacto__title {
     font-size: 1rem;
   }
 
-  #text-description p {
+  .contacto__description {
     font-size: 0.78rem;
   }
 
-  #contato-form {
+  .contato__form {
     width: 56%;
     padding-top: 0;
   }
 
-  #form-contato {
+  .form__contato {
     width: 95%;
     height: 100%;
     margin-left: -3%;
   }
 
-  #form-contato input {
+  .input {
     height: 8%;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 0.55rem;
   }
 
-  #form-contato textarea {
+  .contato__message {
     font-size: 0.55rem;
   }
 
-  #form-contato button {
+  .botao__submit {
     height: 8%;
     font-size: 0.55rem;
   }
@@ -762,7 +762,7 @@ footer {
   }
 
   /* CONTANTO */
-  #CONTATO {
+  .section__contacto {
     display: flex;
     flex-direction: row;
     gap: 12%;
@@ -770,40 +770,40 @@ footer {
     height: 35vh;
   }
 
-  #text-description {
+  .contacto__container {
     width: 40%;
   }
 
-  #text-description h1 {
+  .contacto__title {
     font-size: 1rem;
   }
 
-  #text-description p {
+  .contacto__description {
     font-size: 0.78rem;
   }
 
-  #contato-form {
+  .contato__form {
     width: 56%;
     padding-top: 0;
   }
 
-  #form-contato {
+  .form__contato {
     width: 95%;
     height: 38%;
   }
 
-  #form-contato input {
+  .input {
     height: 8%;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 0.65rem;
   }
 
-  #form-contato textarea {
+  .contato__message {
     font-size: 0.65rem;
   }
 
-  #form-contato button {
+  .botao__submit {
     height: 8%;
     padding: 2%;
     font-size: 0.65rem;
@@ -941,29 +941,29 @@ footer {
   }
 
   /* CONTANTO */
-  #text-description h1 {
+  .contacto__title {
     font-size: 1.2rem;
   }
 
-  #text-description p {
+  .contacto__description {
     font-size: 0.98rem;
   }
 
-  #form-contato {
+  .form__contato {
     width: 85%;
     height: 45%;
   }
 
-  #form-contato input {
+  .input {
     height: 8%;
     font-size: 0.75rem;
   }
 
-  #form-contato textarea {
+  .contato__message {
     font-size: 0.75rem;
   }
 
-  #form-contato button {
+  .botao__submit {
     height: 8%;
     font-size: 0.75rem;
   }
