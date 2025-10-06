@@ -1,23 +1,11 @@
-/* RESET PAGE */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* BODY */
-body {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 10% 1fr 13%;
-  grid-template-areas: "header" "main" "footer";
-}
+@use "variaveis";
+@use "base";
 
 /* HEADER */
 .header {
   padding: 2.55% 10%;
   grid-area: header;
-  background-color: #0d0d0d;
+  background-color: variaveis.$primary-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,16 +32,14 @@ body {
 
 .menu__link {
   text-decoration: none;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
+  color: variaveis.$color-link;
+  font-family: variaveis.$font-family;
+  font-weight: variaveis.$weight-text;
+  font-size: variaveis.$size-text;
   transition: all 0.3s ease-in-out;
 }
 
 .menu__link:hover {
-  color: rgba(56, 149, 186, 0.831372549);
+  color: #3895bad4;
   transform: scale(1.1);
 }
-
-/*# sourceMappingURL=style.css.map */
