@@ -226,3 +226,79 @@
   content: "-";
   margin-right: 2%;
 }
+
+/* SECTION CONTATO */
+.section__contacto {
+  border-top: 1px solid #000000;
+  background-color: variaveis.$color-link;
+  padding: 4% 17%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+}
+
+.contacto__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+}
+
+.contacto__title {
+  font-family: variaveis.$font-family;
+  text-align: center;
+  font-size: variaveis.$title-size - 0.5rem;
+  margin-bottom: 5%;
+}
+
+.contacto__description {
+  font-size: variaveis.$subtitle-size;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+.contato__form {
+  display: flex;
+  padding-top: 10%;
+  justify-content: center;
+}
+
+.form__contato {
+  padding: 4% 2%;
+  width: 60%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  @include mixins.borda-arredondada(15px);
+}
+
+.input {
+  height: 10%;
+  @include mixins.borda-arredondada(10px);
+  padding-left: 2.5%;
+  margin-bottom: 5%;
+  font-size: variaveis.$size-text;
+}
+
+.contato__message {
+  @include mixins.borda-arredondada;
+  padding: 4% 2%;
+  font-size: variaveis.$size-text;
+  margin-bottom: 5%;
+}
+
+.botao__submit {
+  @include mixins.borda-arredondada(15px);
+  height: 10%;
+  cursor: pointer;
+  font-size: variaveis.$size-text - 0.1rem;
+  background-color: #2abcbc;
+  color: variaveis.$color-link;
+}
+
+.botao__submit:hover {
+  background-color: #256e6e;
+}
