@@ -11,5 +11,5 @@
 @use "footer";
 
 // MEDIA QUERIES
-@use "PHONE/media-queries";
-@use "TABLET/media-queries";
+@use "./PHONE/_media-queries" as phone;
+@use "./TABLET/_media-queries" as tablet;

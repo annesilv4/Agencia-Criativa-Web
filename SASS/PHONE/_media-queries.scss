@@ -1,0 +1,17 @@
+@use "../variaveis";
+
+/* MEDIA QUERIES - CELULAR */
+@media (min-width: 320px) and (max-width: 600px) {
+  .header {
+    padding: 1.55% 5%;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo__320px {
+    display: flex;
+    width: 17%;
+  }
+}
