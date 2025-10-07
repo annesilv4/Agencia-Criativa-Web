@@ -1,6 +1,11 @@
+// MIXINS E VARIÁVEIS
 @use "mixins";
 @use "variaveis";
+
+// RESET PAGE E BODY
 @use "base";
+
+// ESTRUTURA DA PÁGINA
 @use "header";
 @use "main";
 @use "footer";
