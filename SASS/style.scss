@@ -9,3 +9,7 @@
 @use "header";
 @use "main";
 @use "footer";
+
+// MEDIA QUERIES
+@use "PHONE/media-queries";
+@use "TABLET/media-queries";
