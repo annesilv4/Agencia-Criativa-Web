@@ -14,4 +14,188 @@
     display: flex;
     width: 17%;
   }
+
+  .menu {
+    width: 74%;
+  }
+
+  .menu__link {
+    font-weight: variaveis.$weight-text;
+    font-size: variaveis.$size-text - 0.55rem;
+  }
+
+  /* HOME */
+  .home__title {
+    font-size: variaveis.$size-text;
+  }
+
+  .home__subtitle {
+    font-size: variaveis.$size-text - 0.35rem;
+  }
+
+  /* SOBRE NÓS */
+  .section__about {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .about__img {
+    width: 98%;
+  }
+
+  .about__title {
+    font-size: variaveis.$size-text;
+  }
+
+  .about__subtitle {
+    font-size: variaveis.$size-text - 0.22rem;
+  }
+
+  /* SERVIÇO */
+  .section__service {
+    padding: 2% 5%;
+  }
+
+  .service__title {
+    font-size: variaveis.$size-text;
+  }
+
+  .service__category {
+    font-size: variaveis.$size-text - 0.1rem;
+  }
+
+  .service__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service__card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+
+  .service__link {
+    padding: 2.5%;
+    font-size: variaveis.$size-text - 0.3rem;
+  }
+
+  .text__service {
+    font-size: variaveis.$size-text - 0.25rem;
+    text-align: center;
+    margin-bottom: 4.5%;
+  }
+
+  /* DEPOIMENTOS */
+  .section__depoimensts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 52vh;
+  }
+
+  .depoiments__title {
+    font-size: variaveis.$size-text;
+  }
+
+  .depoiments__description {
+    font-size: variaveis.$size-text - 0.15rem;
+  }
+
+  .card__depoiments {
+    margin-bottom: 2.5%;
+  }
+
+  .depoiments__paragraph {
+    font-size: variaveis.$size-text - 0.42rem;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+
+  .depoiments__author {
+    font-size: variaveis.$size-text - 0.32rem;
+  }
+
+  .depoiments__author::before {
+    content: "-";
+    margin-right: 2%;
+  }
+
+  /* CONTATO */
+  .section__contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    align-items: center;
+    height: 52vh;
+  }
+
+  .contacto__container {
+    width: 40%;
+    margin-bottom: -15%;
+  }
+
+  .contacto__title {
+    font-size: variaveis.$size-text;
+  }
+
+  .contacto__description {
+    font-size: variaveis.$size-text - 0.22rem;
+  }
+
+  .contato__form {
+    width: 56%;
+    padding: 0;
+  }
+
+  .form__contato {
+    width: 95%;
+    height: 100%;
+    margin-left: -3%;
+  }
+
+  .input {
+    height: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: variaveis.$size-text - 0.45rem;
+  }
+
+  .contato__message {
+    font-size: variaveis.$size-text - 0.45rem;
+  }
+
+  .botao__submit {
+    height: 8%;
+    font-size: variaveis.$size-text - 0.45rem;
+  }
+
+  /* FOOTER */
+  .agencia__img {
+    width: 80%;
+  }
+
+  .agencia__description {
+    font-size: variaveis.$size-text - 0.47rem;
+  }
+
+  .footer__links,
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__link {
+    font-size: variaveis.$size-text - 0.35rem;
+  }
+
+  .social__link {
+    font-size: variaveis.$size-text - 0.2rem;
+  }
+
+  .footer__bottom {
+    padding-top: 2%;
+    font-size: variaveis.$size-text - 0.42rem;
+  }
 }

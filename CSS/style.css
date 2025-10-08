@@ -450,6 +450,153 @@ body {
     display: flex;
     width: 17%;
   }
+  .menu {
+    width: 74%;
+  }
+  .menu__link {
+    font-weight: 500;
+    font-size: 0.45rem;
+  }
+  /* HOME */
+  .home__title {
+    font-size: 1rem;
+  }
+  .home__subtitle {
+    font-size: 0.65rem;
+  }
+  /* SOBRE NÓS */
+  .section__about {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .about__img {
+    width: 98%;
+  }
+  .about__title {
+    font-size: 1rem;
+  }
+  .about__subtitle {
+    font-size: 0.78rem;
+  }
+  /* SERVIÇO */
+  .section__service {
+    padding: 2% 5%;
+  }
+  .service__title {
+    font-size: 1rem;
+  }
+  .service__category {
+    font-size: 0.9rem;
+  }
+  .service__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+  .service__link {
+    padding: 2.5%;
+    font-size: 0.7rem;
+  }
+  .text__service {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 4.5%;
+  }
+  /* DEPOIMENTOS */
+  .section__depoimensts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 52vh;
+  }
+  .depoiments__title {
+    font-size: 1rem;
+  }
+  .depoiments__description {
+    font-size: 0.85rem;
+  }
+  .card__depoiments {
+    margin-bottom: 2.5%;
+  }
+  .depoiments__paragraph {
+    font-size: 0.58rem;
+    font-style: italic;
+    margin-bottom: 5%;
+  }
+  .depoiments__author {
+    font-size: 0.68rem;
+  }
+  .depoiments__author::before {
+    content: "-";
+    margin-right: 2%;
+  }
+  /* CONTATO */
+  .section__contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    align-items: center;
+    height: 52vh;
+  }
+  .contacto__container {
+    width: 40%;
+    margin-bottom: -15%;
+  }
+  .contacto__title {
+    font-size: 1rem;
+  }
+  .contacto__description {
+    font-size: 0.78rem;
+  }
+  .contato__form {
+    width: 56%;
+    padding: 0;
+  }
+  .form__contato {
+    width: 95%;
+    height: 100%;
+    margin-left: -3%;
+  }
+  .input {
+    height: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 0.55rem;
+  }
+  .contato__message {
+    font-size: 0.55rem;
+  }
+  .botao__submit {
+    height: 8%;
+    font-size: 0.55rem;
+  }
+  /* FOOTER */
+  .agencia__img {
+    width: 80%;
+  }
+  .agencia__description {
+    font-size: 0.53rem;
+  }
+  .footer__links,
+  .footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__link {
+    font-size: 0.65rem;
+  }
+  .social__link {
+    font-size: 0.8rem;
+  }
+  .footer__bottom {
+    padding-top: 2%;
+    font-size: 0.58rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
